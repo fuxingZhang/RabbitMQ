@@ -12,9 +12,9 @@ async function test() {
   // 客户端向消息队列发送消息
   let i = 1;
   client_send(queueName, `task${i++}`);
-  await sleep(2000);
-  client_send(queueName, `task${i++}`);
   await sleep(3000);
+  client_send(queueName, `task${i++}`);
+  await sleep(1000);
   client_send(queueName, `task${i++}`);
 }
 

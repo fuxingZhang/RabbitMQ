@@ -1,6 +1,15 @@
 # RabbitMQ
 Examples showing how RabbitMQ is used in nodejs
 
+## run  
+```bash
+cd RabbitMQ
+node app
+```  
+
+## screenshots
+![console](./screenshots/1.png)
+
 ## Consumer messages
 There are two ways to consume messages, one is Consume and the other is Get.
 
