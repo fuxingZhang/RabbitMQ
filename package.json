@@ -1,0 +1,26 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "Examples showing how RabbitMQ is used in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuxingZhang/RabbitMQ.git"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "Node.js"
+  ],
+  "author": "Zhang Fu Xing <502545703@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuxingZhang/RabbitMQ/issues"
+  },
+  "homepage": "https://github.com/fuxingZhang/RabbitMQ#readme",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  }
+}
