@@ -1,6 +1,8 @@
 # RabbitMQ
 Examples showing how RabbitMQ is used in nodejs
 
+> https://github.com/squaremo/amqp.node
+
 ## run  
 ```bash
 cd RabbitMQ
