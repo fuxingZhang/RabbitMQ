@@ -1,7 +1,7 @@
 const server_consume = require('./lib/server_consume');
 const client_send = require('./lib/client_send');
 const logger = require('./util/logger');
-const queueName = 'test';
+const queueName = require('./config/index').queueName;
 
 const sleep = n => new Promise((resolve, reject) => setTimeout(resolve, n));
 
